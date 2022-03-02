@@ -36,27 +36,30 @@
     </header>
 
     <!-- jumbotron goes here -->
-    <section>
-        <div>
-            <h3>Get Started Today</h3>
+    <section class="hero"> <!--Added class of .hero on this section to add a background img-->
+        <div class="hero-form"> <!--Added a class="hero-forms" to target styling  and to be able to drill down to selectors in this div easier-->
+            <h3>Get Started Today!</h3>
             <p>Fill out this form and one of our trainers will schedule a consult.</p>
             <!-- add form elements-->
             <form>
-                <label for="name">Enter full name:</label> <!--form/text fields-->
-                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="name">Enter full name:</label>
+                <!--form/text fields-->
+                <input type="text" class="form-input" placeholder="Your Name" name="name" id="name" />  <!--Added a class="form input to target inputs inorder to structure and style instead of the whole section"-->
                 <label for="email">Enter email address</label>
-                <input type="email" placeholder="Email Address" name="email" id="email" />
+                <input type="email" class="form-input" placeholder="Email Address" name="email" id="email" />
                 <label for="phone">Phone Number</label>
-                <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                <input type="tel" class="form-input" placeholder="Phone Number" name="phone" id="phone" />
                 <p>
                     Have you ever worked out with a trainer before?
-                    <input type="radio" name="trainer-confirm" id="trainer-yes" /> <!--form/button/ use p tag and same name=""-->
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <!--form/button/ use p tag and same name=""-->
                     <label for="trainer-yes">Yes</label>
                     <input type="radio" name="trainer-confirm" id="trainer-no" />
                     <label for="trainer-no">No</label>
                 </p>
                 <p>
-                    I acknowledge that I am at least 18 years old.  <!--forms/checkbox/ use p tags-->
+                    I acknowledge that I am at least 18 years old.
+                    <!--forms/checkbox/ use p tags-->
                     <input type="checkbox" name="age-confirm" id="check-box" />
                     <label for=""></label>
                 </p>

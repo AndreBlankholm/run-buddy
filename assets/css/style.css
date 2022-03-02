@@ -8,7 +8,6 @@ body {
     
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-   
   }
 
 header {
@@ -65,4 +64,59 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+/*bottom of the style.css file*/
+section {
+    padding: 60px;
+}
+
+/*Hero styling start*/
+.hero {
+    background-image:url("../images/hero-bg.jpg");    /* add a back-ground picture*/
+    height: 600px;                                   /*streached out the hieght to fit the picture in better*/
+    background-size: cover;                         /* cover is to cove rthe whole area in back-ground/ you can also use"contain, % or by pxls*/
+    background-position: center; 
+    position:relative;                  /* inorder to center the image*/
+}
+/*Hero styling end*/
+
+.hero-form { /* added .hero-form to style*/
+    color: #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 535px;
+    font-weight: bold;
+    line-height: 1.5;
+    border-style: solid; /*these next 3 lines put the border together*/
+    border-width: 3px;
+    border-color:#024e76;
+    position:absolute;
+    bottom:120px;
+    right:140px;
+}
+
+.hero-form h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hero-form p {
+    margin: 15px 0 20px 0;
+}
+
+.form-input {  /* Used to make form inputs strech the entire width and line up */
+    border: 1px solid #024e76;
+    display: block;
+    width: 100%;
+    padding: 7px 15px;
+    font-size: 16px;
+    margin-bottom: 15;
+}
+
+.hero-form button{ /*targeting button */
+    background-color: #024e76;
+    color: #fce138;
+    padding: 10px 20px;
+    font-size: 16px;
 }
