@@ -125,19 +125,34 @@ section {
     text-align: center;
 }
 
-.intro h2{
-    font-size: 55px;
-    border-bottom: 3px solid; /* border bottom gave the effect of a divider on the webpage*/
-    border-color: #fce138;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;  /*  margin 0  auto (auto trys to center as much as possible) and was used to center the paragraph after it was set to 80% */
+}
+
+/* what you dou section*/
+
+.steps {  /* adding this class aligns the whole section*/
+    text-align: center;
+    background-color: #fce138;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: #39a6b2;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color:#39a6b2
 }
