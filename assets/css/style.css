@@ -133,7 +133,7 @@ section {
     margin: 0 auto;  /*  margin 0  auto (auto trys to center as much as possible) and was used to center the paragraph after it was set to 80% */
 }
 
-/* what you dou section*/
+/* what you do section*/
 
 .steps {  /* adding this class aligns the whole section*/
     text-align: center;
@@ -142,7 +142,6 @@ section {
 
 .section-title {
     font-size: 55px;
-    color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
@@ -155,4 +154,22 @@ section {
 
 .secondary-border {
     border-color:#39a6b2
+}
+
+.steps div{
+    margin-bottom: 80px;
+}
+
+.steps img {   /* this target the large svg images and sizes the width */
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+ color:#024e76;
+ font-size: 46px;
+}
+
+.steps span {
+    font-size: 38px;
 }
