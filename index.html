@@ -36,15 +36,18 @@
     </header>
 
     <!-- jumbotron goes here -->
-    <section class="hero"> <!--Added class of .hero on this section to add a background img-->
-        <div class="hero-form"> <!--Added a class="hero-forms" to target styling  and to be able to drill down to selectors in this div easier-->
+    <section class="hero">
+        <!--Added class of .hero on this section to add a background img-->
+        <div class="hero-form">
+            <!--Added a class="hero-forms" to target styling  and to be able to drill down to selectors in this div easier-->
             <h3>Get Started Today!</h3>
             <p>Fill out this form and one of our trainers will schedule a consult.</p>
             <!-- add form elements-->
             <form>
                 <label for="name">Enter full name:</label>
                 <!--form/text fields-->
-                <input type="text" class="form-input" placeholder="Your Name" name="name" id="name" />  <!--Added a class="form input to target inputs inorder to structure and style instead of the whole section"-->
+                <input type="text" class="form-input" placeholder="Your Name" name="name" id="name" />
+                <!--Added a class="form input to target inputs inorder to structure and style instead of the whole section"-->
                 <label for="email">Enter email address</label>
                 <input type="email" class="form-input" placeholder="Email Address" name="email" id="email" />
                 <label for="phone">Phone Number</label>
@@ -80,17 +83,17 @@
     <section id="what-you-do" class="steps">
         <h2 class="section-title secondary-border"> What You Do </h2>
 
-        <div >
+        <div>
             <img src="../run-buddy/assets/images/step-1.svg" alt=""> <!-- svg dowloaded to img folder-->
             <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
             <p> You're already there, so why not?</p>
         </div>
-        <div >
+        <div>
             <img src="../run-buddy/assets/images/step-2.svg" alt="">
             <h3>Step 2: <span> With one of Our Trainers</span>.</h3>
             <p>Are you here to build muscle, lose weigth, or just feel good?</p>
         </div>
-        <div >
+        <div>
             <img src="../run-buddy/assets/images/step-3.svg" alt="">
             <h3>Step 3:<span>Get Running.</span> </h3>
             <p>Hit the ground running (literally) once your trainers lay out your plan.</p>
@@ -103,8 +106,54 @@
     </section>
 
     <!--"Meet the trainers section"-->
-    <section>
-        Meet the trainers
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">Meet the Trainers</h2>
+
+        <article class="trainer">
+            <!-- added article as a container classs to target "trainer" for styling-->
+            <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout">
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi
+                    saepe
+                    culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis
+                    repellat!
+                </p>
+            </div>
+        </article>
+        <article class="trainer">
+            <!-- added article as a container classs to target "trainer" for styling-->
+            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout">
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Enduranceh</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi
+                    saepe
+                    culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis
+                    repellat!
+                </p>
+            </div>
+        </article>
+        <article class="trainer">
+            <!-- added article as a container classs to target "trainer" for styling-->
+            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically">
+            <div class="trainer-bio text-left">
+                <h3>Harry Smith</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi
+                    saepe
+                    culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis
+                    repellat!
+                </p>
+            </div>
+        </article>
     </section>
 
     <!-- "reach out section"-->
