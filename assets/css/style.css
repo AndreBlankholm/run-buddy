@@ -5,7 +5,6 @@
 }
 
 body {
-    
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -53,17 +52,18 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5; /* How much vertical space should be between the lines of texts*/
     text-align: right; /* align the text to the left, right, center, or justified. By defualt, it is left-aligned*/
 }
@@ -80,26 +80,40 @@ section {
 /*Hero styling start*/
 .hero {
     background-image:url("../images/hero-bg.jpg");    /* add a back-ground picture*/
-    height: 600px;                                   /*streached out the hieght to fit the picture in better*/
     background-size: cover;                         /* cover is to cove rthe whole area in back-ground/ you can also use"contain, % or by pxls*/
-    background-position: center; 
-    position:relative;                  /* inorder to center the image*/
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;                 
 }
 /*Hero styling end*/
+
+.hero-cta{
+    width: 35%;
+    text-align:right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+}
 
 .hero-form { /* added .hero-form to style*/
     color: #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 535px;
     font-weight: bold;
     line-height: 1.5;
     border-style: solid; /*these next 3 lines put the border together*/
     border-width: 3px;
     border-color:#024e76;
-    position:absolute;
-    bottom:100px;
-    right:140px;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form h3 {
