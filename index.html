@@ -38,12 +38,18 @@
     <!-- jumbotron goes here -->
     <section class="hero">
         <!--Added class of .hero on this section to add a background img-->
-        <div class="hero-cta"> <!--added div class from module-->
+        <div class="hero-cta">
+            <!--added div class from module-->
             <h2>Start Building Habits.</h2>
             <p>
-              seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
+                seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird
+                on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag
+                trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights
+                retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray
+                gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage
+                letterpress High Life.
             </p>
-          </div>
+        </div>
         <div class="hero-form">
             <!--Added a class="hero-forms" to target styling  and to be able to drill down to selectors in this div easier-->
             <h3>Get Started Today!</h3>
@@ -89,25 +95,53 @@
     <section id="what-you-do" class="steps">
         <h2 class="section-title secondary-border"> What You Do </h2>
 
-        <div>
-            <img src="../run-buddy/assets/images/step-1.svg" alt=""> <!-- svg dowloaded to img folder-->
-            <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
-            <p> You're already there, so why not?</p>
+        <div class="step">
+            <h3>Step 1:</h3>
+            <div class="step-info">
+                <div class="step-img">
+                    <img src="../run-buddy/assets/images/step-1.svg" alt=""> <!-- svg dowloaded to img folder-->
+                </div>
+                <div class="step-text">
+                    <h4>Fill out the form above.</h4>
+                    <p>You're ready here, so why not?</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="../run-buddy/assets/images/step-2.svg" alt="">
-            <h3>Step 2: <span> With one of Our Trainers</span>.</h3>
-            <p>Are you here to build muscle, lose weigth, or just feel good?</p>
+        <div class="step">
+            <h3>Step 2:</h3>
+            <div class="step-info">
+                <div class="step-img">
+                    <img src="../run-buddy/assets/images/step-2.svg" alt="" > <!-- svg dowloaded to img folder-->
+                </div>
+                <div class="step-text">
+                    <h4> Consult with one of Our Trainers</h4>
+                    <p>Are you here to build muscle, lose weigth, or just feel good?</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="../run-buddy/assets/images/step-3.svg" alt="">
-            <h3>Step 3:<span>Get Running.</span> </h3>
-            <p>Hit the ground running (literally) once your trainers lay out your plan.</p>
+        <div class="step">
+            <h3>Step 3:</h3>
+            <div class="step-info">
+                <div class="step-img">
+                    <img src="../run-buddy/assets/images/step-3.svg" alt=""> <!-- svg dowloaded to img folder-->
+                </div>
+                <div class="step-text">
+                    <h4>Get Running.</h4>
+                    <p>Hit the ground running (literally) once your trainers lay out your plan.</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="../run-buddy/assets/images/step-4.svg" alt="">
-            <h3>Step 4: <span>See Results</span></h3>
-            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+        <div class="step">
+            <h3>Step 4:</h3>
+            <div class="step-info">
+                <div class="step-img">
+                    <img src="../run-buddy/assets/images/step-4.svg" alt=""> <!-- svg dowloaded to img folder-->
+                </div>
+                <div class="step-text">
+                    <h4>See Results.</h4>
+                    <p>Bi-weekly checkins with your trainer will keep you focused</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -167,19 +201,22 @@
         <h2 class="section-title secondary-border">Reach Out</h2>
 
         <div class="contact-info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.798078548754!2d-92.96409548446448!3d44.805303579098734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f7cfdc7d4af5db%3A0xf49026e337ecfc57!2s9977%20Hamlet%20Ln%20S!5e0!3m2!1sen!2sus!4v1646536250773!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <div class="contact-form"> <!--added div class by module-->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.798078548754!2d-92.96409548446448!3d44.805303579098734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f7cfdc7d4af5db%3A0xf49026e337ecfc57!2s9977%20Hamlet%20Ln%20S!5e0!3m2!1sen!2sus!4v1646536250773!5m2!1sen!2sus"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="contact-form">
+                <!--added div class by module-->
                 <h3>Contact Us</h3>
                 <form>
-                   <label for="contact-name">Your Name</label>
-                   <input type="text" id="contact-name" placeholder="Your Name" />
-              
-                   <label for="contact-message">Message</label>
-                   <textarea id="contact-message" placeholder="Message"></textarea>
-              
-                   <button type="submit">Submit</button>
-                  </form>
-              </div>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
+
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
             <div>
                 <h3>Run Buddy</h3>
                 <p>
@@ -188,7 +225,7 @@
                     Let us know and we will be happy to talk to you!
                 </p>
                 <address>
-                     Main Street<br />
+                    Main Street<br />
                     Thought U Thought, Mn <br />
                     12345 <br />
                     P: 555.RUN.BUDZ (555.786.2839 <br />
